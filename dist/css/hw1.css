@@ -1,0 +1,27 @@
+header {
+  background-color: #303030;
+}
+
+h1,
+h2 {
+  color: orange;
+  text-transform: uppercase;
+}
+
+h1 {
+  text-align: center;
+}
+
+section {
+  background-color: #326446;
+}
+
+a {
+  color: white;
+  background-color: #000;
+}
+
+aside {
+  display: none;
+}
+/*# sourceMappingURL=hw1.css.map */
