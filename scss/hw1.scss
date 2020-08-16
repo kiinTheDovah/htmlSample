@@ -1,22 +1,28 @@
 header {
-  background-color: #303030;
+  background-color: #333;
+  a {
+    display: inline-block;
+    padding: 1% 4%;
+    margin: 0 0;
+  }
 }
 body {
-  background-color: #272727;
+  background-color: #222;
 }
 h1,
 h2 {
-  color: orange;
+  color: #ffa600;
   text-transform: uppercase;
 }
 h1 {
   text-align: center;
 }
 section {
-  background-color: rgb(50, 100, 70);
+  background-color: #444;
+  color: #fff;
 }
 a {
-  color: white;
+  color: #fff;
   background-color: #000;
 }
 aside {
