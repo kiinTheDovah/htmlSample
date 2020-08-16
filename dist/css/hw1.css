@@ -2,6 +2,10 @@ header {
   background-color: #303030;
 }
 
+body {
+  background-color: #272727;
+}
+
 h1,
 h2 {
   color: orange;
@@ -24,4 +28,3 @@ a {
 aside {
   display: none;
 }
-/*# sourceMappingURL=hw1.css.map */
