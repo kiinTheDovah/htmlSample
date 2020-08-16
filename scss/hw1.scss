@@ -6,9 +6,9 @@ header {
   nav {
     background-image: url("../images/flywheel.jpg");
     background-size: 100vw;
-    width: 94%;
+    width: 100%;
     margin: 0;
-    padding: 2% 3% 4%;
+    padding: 2% 0 4%;
     a {
       display: inline-block;
       width: auto;
@@ -39,9 +39,6 @@ h2 {
   background-color: #111;
   margin: 0;
 }
-h1 {
-  //text-align: center;
-}
 section {
   background-color: #444;
   color: #fff;
@@ -66,7 +63,7 @@ a {
   float: left;
 
   width: 50vw;
-  padding: 2vh 1vw;
+  padding: 2%;
   margin: 20px;
   font-size: 1.4em;
 }
