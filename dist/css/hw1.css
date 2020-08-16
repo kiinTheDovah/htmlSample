@@ -1,6 +1,7 @@
 header {
   background-color: #111;
   font-size: 1.4em;
+  text-align: center;
 }
 
 header nav {
@@ -40,10 +41,6 @@ h2 {
   text-transform: uppercase;
   background-color: #111;
   margin: 0;
-}
-
-h1 {
-  text-align: center;
 }
 
 section {
