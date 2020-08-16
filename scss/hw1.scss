@@ -6,10 +6,9 @@ header {
   nav {
     background-image: url("../images/flywheel.jpg");
     background-size: 100vw;
-    padding: 10px 0;
-    width: 100vw;
-    margin: 0 1vw auto;
-    padding: 30px 0 50px;
+    width: 94%;
+    margin: 0;
+    padding: 2% 3% 4%;
     a {
       display: inline-block;
       width: auto;
@@ -28,10 +27,13 @@ header {
   }
 }
 body {
+  padding: 0;
+  margin: 0;
   background-color: #222;
 }
 h1,
 h2 {
+  width: 100%;
   color: #ffa600;
   text-transform: uppercase;
   background-color: #111;
@@ -54,6 +56,8 @@ a {
   width: 30vw;
   a {
     display: block;
+    width: 50px;
+    height: 100px;
     resize: both;
     overflow: auto;
   }
