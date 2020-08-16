@@ -51,14 +51,16 @@ a {
 }
 .left {
   float: left;
-
-  width: 30vw;
+  background-color: #111;
+  width: 25vw;
   img {
     display: block;
-    width: 100%;
+    width: 80%;
     height: auto;
-    resize: both;
-    overflow: auto;
+    margin: 5% auto;
+    border-width: 5px;
+    border-color: #ffa600;
+    border-style: outset;
   }
 }
 .right {
