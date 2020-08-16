@@ -1,15 +1,14 @@
 header {
   background-color: #111;
   background-image: url("../images/flywheel.jpg");
-  background-size: auto;
-  background-position-x: center;
-  background-repeat: no-repeat;
-  height: 150px;
+  background-size: 100vw;
+  font-size: 1.4em;
 }
 
 header nav {
-  width: 500px;
-  margin: 0 auto;
+  width: 100vw;
+  height: 10vh;
+  margin: 4vh 1vw auto;
   padding: 0 0;
 }
 
@@ -56,8 +55,7 @@ a {
 
 .left {
   float: left;
-  display: inline-block;
-  width: 30%;
+  width: 30vw;
 }
 
 .left a {
@@ -68,8 +66,8 @@ a {
 
 .right {
   float: left;
-  display: inline-block;
-  width: 50%;
-  padding: 10px 1%;
+  width: 50vw;
+  padding: 2vh 1vw;
   margin: 20px;
+  font-size: 1.4em;
 }
