@@ -1,6 +1,6 @@
 body {
-  padding: 0;
-  margin: 0;
+  padding: 1%;
+  margin: 1%;
   background-color: #222;
 }
 
@@ -41,17 +41,14 @@ h2 {
   background-color: #111;
   margin: 0;
 }
-section {
-  background-color: #444;
-  color: #fff;
-}
+
 a {
   color: #fff;
   background-color: #000;
 }
 .left {
   float: left;
-  background-color: #111;
+  background-color: #333;
   width: 25vw;
   img {
     display: block;
@@ -65,8 +62,9 @@ a {
 }
 .right {
   float: left;
-
-  width: 50vw;
+  background-color: #333;
+  color: #fff;
+  width: 60vw;
   padding: 2%;
   margin: 2%;
   font-size: 1.4em;
