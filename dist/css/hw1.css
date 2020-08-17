@@ -96,11 +96,16 @@ a {
 table {
   text-align: center;
   color: #ffa600;
-  opacity: 0.3;
+  text-shadow: 2px 2px #000;
+  font-family: "Bahnschrift";
+  font-size: 0.9em;
+  font-weight: lighter;
+  margin: auto;
 }
 
 table tr {
   background-color: #222;
+  opacity: 0.7;
 }
 
 table tr :first-child {
@@ -109,14 +114,27 @@ table tr :first-child {
 
 table tr th,
 table tr td {
+  border-radius: 2px;
   padding: 3%;
 }
 
-table tr th :hover,
-table tr td :hover {
-  opacity: 0;
+table tr th {
+  border: outset 5px #999;
+  border-bottom: outset 10px #999;
 }
 
 table :first-child tr th {
   background-color: #111;
+}
+
+tr th:first-child {
+  border-top-left-radius: 15px;
+}
+
+tr th:last-child {
+  border-top-right-radius: 15px;
+}
+
+tr:hover {
+  opacity: 1;
 }
